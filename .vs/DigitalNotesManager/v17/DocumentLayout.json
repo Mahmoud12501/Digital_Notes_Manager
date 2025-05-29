@@ -1,42 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\",
+  "WorkspaceRootPath": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\digital_notes_manager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\windowsformsapp1\\addnoteform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:addnoteform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\digital_notes_manager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\digital_notes_manager\\editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\digital_notes_manager\\editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:editnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\digital_notes_manager\\addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|e:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\digital_notes_manager\\addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BB9E8F-9DCA-436D-AD87-E78F57216814}|WindowsFormsApp1.csproj|solutionrelative:addnoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,116 +50,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditNoteForm.cs",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\EditNoteForm.cs",
-              "RelativeDocumentMoniker": "EditNoteForm.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\EditNoteForm.cs",
-              "RelativeToolTip": "EditNoteForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:48:26.731Z",
+              "WhenOpened": "2025-05-29T12:34:49.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddNoteForm.cs",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\AddNoteForm.cs",
-              "RelativeDocumentMoniker": "AddNoteForm.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\AddNoteForm.cs",
-              "RelativeToolTip": "AddNoteForm.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwDsAAAAFAAAAAAAAAA==",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:32:39.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddNoteForm.cs [Design]",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\AddNoteForm.cs",
-              "RelativeDocumentMoniker": "AddNoteForm.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\AddNoteForm.cs [Design]",
-              "RelativeToolTip": "AddNoteForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:32:30.67Z",
+              "WhenOpened": "2025-05-29T12:33:35.243Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\DatabaseHelper.cs",
-              "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAQwFwAAAAPAAAAAAAAAA==",
+              "Title": "EditNoteForm.cs",
+              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\EditNoteForm.cs",
+              "RelativeDocumentMoniker": "EditNoteForm.cs",
+              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\EditNoteForm.cs",
+              "RelativeToolTip": "EditNoteForm.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwHcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:29:07.871Z",
+              "WhenOpened": "2025-05-29T12:26:55.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
+              "Title": "EditNoteForm.cs [Design]",
+              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\EditNoteForm.cs",
+              "RelativeDocumentMoniker": "EditNoteForm.cs",
+              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\EditNoteForm.cs [Design]",
+              "RelativeToolTip": "EditNoteForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:45:12.133Z",
+              "WhenOpened": "2025-05-29T12:25:28.937Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddNoteForm.cs",
+              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\AddNoteForm.cs",
+              "RelativeDocumentMoniker": "AddNoteForm.cs",
+              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\AddNoteForm.cs",
+              "RelativeToolTip": "AddNoteForm.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:10:40.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwCYAAAAMAAAAAAAAAA==",
+              "Title": "AddNoteForm.cs [Design]",
+              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\AddNoteForm.cs",
+              "RelativeDocumentMoniker": "AddNoteForm.cs",
+              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\Digital_Notes_Manager\\AddNoteForm.cs [Design]",
+              "RelativeToolTip": "AddNoteForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:18:29.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddNoteForm.Designer.cs",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\AddNoteForm.Designer.cs",
-              "RelativeDocumentMoniker": "AddNoteForm.Designer.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\AddNoteForm.Designer.cs",
-              "RelativeToolTip": "AddNoteForm.Designer.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAASwMcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T10:32:50.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAASwF0AAAB7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:55:00.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditNoteForm.cs [Design]",
-              "DocumentMoniker": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\EditNoteForm.cs",
-              "RelativeDocumentMoniker": "EditNoteForm.cs",
-              "ToolTip": "E:\\ex_hard\\foundtion\\test\\progectnotes\\noteapp2\\WindowsFormsApp1\\EditNoteForm.cs [Design]",
-              "RelativeToolTip": "EditNoteForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:50:36.35Z",
+              "WhenOpened": "2025-05-29T11:08:13.906Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -38,16 +38,32 @@ namespace WindowsFormsApp1
             if (note != null)
             {
                 textTitle.Text = note["Title"].ToString();
-                txtContent.Text = note["Content"].ToString();
+                richTextContent.Text = note["Content"].ToString();
                 cmbCategory.Text = note["Category"].ToString();
                 dtReminder.Value = Convert.ToDateTime(note["ReminderDate"]);
             }
+            ////
+            ///
+            foreach (FontFamily font in FontFamily.Families)
+            {
+                cmbFonts.Items.Add(font.Name);
+            }
+            cmbFonts.SelectedIndex = 0;
+            ////
+            cmbFontSize.Items.AddRange(new object[] { "8", "10", "12", "14", "16", "18", "20", "24", "28", "32", "36" });
+            cmbFontSize.SelectedItem = "12"; 
+
+            foreach (FontFamily font in FontFamily.Families)
+            {
+                cmbFonts.Items.Add(font.Name);
+            }
+            cmbFonts.SelectedItem = "Arial";
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             string title = textTitle.Text.Trim();
-            string content = txtContent.Text.Trim();
+            string content = richTextContent.Text.Trim();
             string category = cmbCategory.Text;
             DateTime reminder = dtReminder.Value;
 
@@ -63,5 +79,47 @@ namespace WindowsFormsApp1
             MessageBox.Show("Note updated successfully!");
             this.Close();
         }
+
+        private void ToggleStyle(FontStyle style)
+        {
+            if (richTextContent.SelectionFont != null)
+            {
+                Font currentFont = richTextContent.SelectionFont;
+                FontStyle newStyle = currentFont.Style ^ style;
+                richTextContent.SelectionFont = new Font(currentFont, newStyle);
+            }
+        }
+
+
+        private void Bold_Click(object sender, EventArgs e)
+        {
+            ToggleStyle(FontStyle.Bold);
+        }
+
+        private void Italic_Click(object sender, EventArgs e)
+        {
+            ToggleStyle(FontStyle.Italic);
+        }
+
+        private void Underline_Click(object sender, EventArgs e)
+        {
+            ToggleStyle(FontStyle.Underline);
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+            string selectedFont = cmbFonts.SelectedItem.ToString();
+            float currentSize = richTextContent.SelectionFont?.Size ?? 12;
+            richTextContent.SelectionFont = new Font(selectedFont, currentSize);
+        }
+
+        private void cmbFontSize_Click(object sender, EventArgs e)
+        {
+            float size = float.Parse(cmbFontSize.SelectedItem.ToString());
+            string fontName = richTextContent.SelectionFont?.FontFamily.Name ?? "Arial";
+            richTextContent.SelectionFont = new Font(fontName, size);
+        }
+     
+
     }
- }
+}

@@ -48,7 +48,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(3, 64);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(878, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1008, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -93,11 +93,11 @@
             // dgvNotes
             // 
             this.dgvNotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNotes.Location = new System.Drawing.Point(46, 120);
+            this.dgvNotes.Location = new System.Drawing.Point(51, 120);
             this.dgvNotes.Name = "dgvNotes";
             this.dgvNotes.RowHeadersWidth = 51;
             this.dgvNotes.RowTemplate.Height = 26;
-            this.dgvNotes.Size = new System.Drawing.Size(763, 346);
+            this.dgvNotes.Size = new System.Drawing.Size(915, 346);
             this.dgvNotes.TabIndex = 1;
             this.dgvNotes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNotes_CellClick);
             // 
@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 520);
+            this.ClientSize = new System.Drawing.Size(1014, 520);
             this.Controls.Add(this.dgvNotes);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
