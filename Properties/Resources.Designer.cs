@@ -65,7 +65,7 @@ namespace WindowsFormsApp1.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Editing_Underline_icon {
             get {
-                object obj = ResourceManager.GetObject("Editing-Underline-icon", resourceCulture);
+                object obj = ResourceManager.GetObject("Editing_Underline_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -85,7 +85,7 @@ namespace WindowsFormsApp1.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap images__1_ {
             get {
-                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("images__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

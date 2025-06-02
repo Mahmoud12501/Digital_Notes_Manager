@@ -39,32 +39,48 @@ namespace WindowsFormsApp1
             DatabaseHelper db = new DatabaseHelper();
             DataTable dt = db.GetNotesByUser(userId);
             dgvNotes.DataSource = dt;
+            cmbCategoryFilter.Items.Add("All");
+            cmbCategoryFilter.Items.Add("Work");
+            cmbCategoryFilter.Items.Add("Study");
+            cmbCategoryFilter.Items.Add("Personal");
+            cmbCategoryFilter.SelectedIndex = 0; // "All"
+
+            LoadNotes(); // تحميل الملاحظات
         }
 
         private void LoadNotes()
         {
+            string category = cmbCategoryFilter.SelectedItem?.ToString() ?? "All";
+            string search = txtSearchTitle.Text.Trim();
+
             DatabaseHelper db = new DatabaseHelper();
-            DataTable dt = db.GetNotesByUser(userId);
+            DataTable dt = db.GetFilteredNotes(userId, category, search);
             dgvNotes.DataSource = dt;
 
-            // امسح الأعمدة التفاعلية أولًا عشان ما تتكرر
-            if (!dgvNotes.Columns.Contains("Edit"))
+            // حذف وإعادة إضافة أعمدة Edit/Delete
+            foreach (DataGridViewColumn col in dgvNotes.Columns.Cast<DataGridViewColumn>().ToList())
             {
-                DataGridViewButtonColumn editBtn = new DataGridViewButtonColumn();
-                editBtn.HeaderText = "Edit";
-                editBtn.Text = "Edit";
-                editBtn.UseColumnTextForButtonValue = true;
-                dgvNotes.Columns.Add(editBtn);
+                if (col.Name == "Edit" || col.Name == "Delete")
+                    dgvNotes.Columns.Remove(col);
             }
 
-            if (!dgvNotes.Columns.Contains("Delete"))
+            DataGridViewButtonColumn editBtn = new DataGridViewButtonColumn
             {
-                DataGridViewButtonColumn deleteBtn = new DataGridViewButtonColumn();
-                deleteBtn.HeaderText = "Delete";
-                deleteBtn.Text = "Delete";
-                deleteBtn.UseColumnTextForButtonValue = true;
-                dgvNotes.Columns.Add(deleteBtn);
-            }
+                HeaderText = "Edit",
+                Text = "Edit",
+                Name = "Edit",
+                UseColumnTextForButtonValue = true
+            };
+            dgvNotes.Columns.Add(editBtn);
+
+            DataGridViewButtonColumn deleteBtn = new DataGridViewButtonColumn
+            {
+                HeaderText = "Delete",
+                Text = "Delete",
+                Name = "Delete",
+                UseColumnTextForButtonValue = true
+            };
+            dgvNotes.Columns.Add(deleteBtn);
         }
 
         private void addNoteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -112,5 +128,56 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+
+        private void cmbCategoryFilter_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadNotes();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            LoadNotes();
+        }
+
+        private void tileWindowsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileHorizontal); // TileVertical
+        }
+
+        private void cascadeWindowsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void CheckReminders()
+        {
+            DatabaseHelper db = new DatabaseHelper();
+            var notesDue = db.GetDueReminders(userId, DateTime.Today);
+            foreach (DataRow row in notesDue.Rows)
+            {
+                string title = row["Title"].ToString();
+                DateTime reminderDate = Convert.ToDateTime(row["ReminderDate"]);
+
+                MessageBox.Show($"🔔 Reminder: {title} is due today ({reminderDate:dd/MM/yyyy})",
+                                "Note Reminder", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+
+
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            CheckReminders();
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm form = new AboutForm();
+            form.ShowDialog();
+
+        }
     }
 }
+
+

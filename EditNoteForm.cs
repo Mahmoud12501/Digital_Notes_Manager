@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         public EditNoteForm(int selectedNoteId)
         {
             InitializeComponent();
+            this.TopLevel = true;
             noteId = selectedNoteId;
 
             var skinManager = MaterialSkinManager.Instance;

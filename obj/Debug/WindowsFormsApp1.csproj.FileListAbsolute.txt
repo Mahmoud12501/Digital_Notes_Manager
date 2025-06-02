@@ -34,3 +34,4 @@ E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\
 E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsF.A1EEDF9B.Up2Date
 E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.exe
 E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.pdb
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.AboutForm.resources

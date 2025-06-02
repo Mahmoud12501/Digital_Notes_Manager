@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         public AddNoteForm()
         {
             InitializeComponent();
+            this.TopLevel = true;
 
         }
         public AddNoteForm(int loggedInUserId)
@@ -110,6 +111,7 @@ namespace WindowsFormsApp1
         }
         private void AddNoteForm_Load(object sender, EventArgs e)
         {
+
             
             foreach (FontFamily font in FontFamily.Families)
             {

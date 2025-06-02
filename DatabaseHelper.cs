@@ -143,6 +143,72 @@ public class DatabaseHelper
         }
     }
 
+    //
+    //filter notes by category and name
+    public DataTable GetNotesByUser(int userId, string category)
+    {
+        using (SqlConnection conn = new SqlConnection(connectionString))
+        {
+            string query = "SELECT NoteID, Title, Category, CreatedDate, ReminderDate FROM Notes WHERE UserID = @UserID";
 
-    // لاحقًا: دوال GetNotesByUserId, AddNote, UpdateNote, DeleteNote
+            if (category != "All")
+                query += " AND Category = @Category";
+
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@UserID", userId);
+
+            if (category != "All")
+                cmd.Parameters.AddWithValue("@Category", category);
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            return dt;
+        }
+    }
+
+    public DataTable GetFilteredNotes(int userId, string category, string searchTitle)
+    {
+        using (SqlConnection conn = new SqlConnection(connectionString))
+        {
+            string query = "SELECT NoteID, Title, Category, CreatedDate, ReminderDate FROM Notes WHERE UserID = @UserID";
+
+            if (category != "All")
+                query += " AND Category = @Category";
+
+            if (!string.IsNullOrEmpty(searchTitle))
+                query += " AND Title LIKE @Search";
+
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@UserID", userId);
+
+            if (category != "All")
+                cmd.Parameters.AddWithValue("@Category", category);
+
+            if (!string.IsNullOrEmpty(searchTitle))
+                cmd.Parameters.AddWithValue("@Search", $"%{searchTitle}%");
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            return dt;
+        }
+    }
+    //reminde
+    public DataTable GetDueReminders(int userId, DateTime date)
+    {
+        using (SqlConnection conn = new SqlConnection(connectionString))
+        {
+            string query = "SELECT Title, ReminderDate FROM Notes WHERE UserID = @UserID AND CAST(ReminderDate AS DATE) = @Today";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@UserID", userId);
+            cmd.Parameters.AddWithValue("@Today", date.Date);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            return dt;
+        }
+
+
+    }
 }
