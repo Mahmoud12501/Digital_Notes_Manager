@@ -15,7 +15,7 @@ public class DatabaseHelper
             string query = "SELECT COUNT(*) FROM Users WHERE Email = @Email AND Password = @Password";
             SqlCommand cmd = new SqlCommand(query, conn);
             cmd.Parameters.AddWithValue("@Email", email);
-            cmd.Parameters.AddWithValue("@Password", password); // لاحقًا نستخدم hashing
+            cmd.Parameters.AddWithValue("@Password", password); 
 
             conn.Open();
             int count = (int)cmd.ExecuteScalar();

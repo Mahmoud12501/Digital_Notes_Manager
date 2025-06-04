@@ -40,6 +40,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cmbFonts = new System.Windows.Forms.ToolStripComboBox();
             this.cmbFontSize = new System.Windows.Forms.ToolStripComboBox();
+            this.btnSaveToFile = new MaterialSkin.Controls.MaterialButton();
+            this.btnOpenFromFile = new MaterialSkin.Controls.MaterialButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -193,11 +195,53 @@
             this.cmbFontSize.Name = "cmbFontSize";
             this.cmbFontSize.Size = new System.Drawing.Size(121, 28);
             // 
+            // btnSaveToFile
+            // 
+            this.btnSaveToFile.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnSaveToFile.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnSaveToFile.Depth = 0;
+            this.btnSaveToFile.HighEmphasis = true;
+            this.btnSaveToFile.Icon = null;
+            this.btnSaveToFile.Location = new System.Drawing.Point(379, 443);
+            this.btnSaveToFile.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSaveToFile.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnSaveToFile.Name = "btnSaveToFile";
+            this.btnSaveToFile.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnSaveToFile.Size = new System.Drawing.Size(90, 36);
+            this.btnSaveToFile.TabIndex = 17;
+            this.btnSaveToFile.Text = "Save File";
+            this.btnSaveToFile.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnSaveToFile.UseAccentColor = false;
+            this.btnSaveToFile.UseVisualStyleBackColor = true;
+            this.btnSaveToFile.Click += new System.EventHandler(this.btnSaveToFile_Click);
+            // 
+            // btnOpenFromFile
+            // 
+            this.btnOpenFromFile.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnOpenFromFile.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnOpenFromFile.Depth = 0;
+            this.btnOpenFromFile.HighEmphasis = true;
+            this.btnOpenFromFile.Icon = null;
+            this.btnOpenFromFile.Location = new System.Drawing.Point(548, 443);
+            this.btnOpenFromFile.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnOpenFromFile.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnOpenFromFile.Name = "btnOpenFromFile";
+            this.btnOpenFromFile.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnOpenFromFile.Size = new System.Drawing.Size(92, 36);
+            this.btnOpenFromFile.TabIndex = 16;
+            this.btnOpenFromFile.Text = "Open File";
+            this.btnOpenFromFile.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnOpenFromFile.UseAccentColor = false;
+            this.btnOpenFromFile.UseVisualStyleBackColor = true;
+            this.btnOpenFromFile.Click += new System.EventHandler(this.btnOpenFromFile_Click);
+            // 
             // EditNoteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1066, 499);
+            this.Controls.Add(this.btnSaveToFile);
+            this.Controls.Add(this.btnOpenFromFile);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.richTextContent);
             this.Controls.Add(this.btnSave);
@@ -228,5 +272,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripComboBox cmbFonts;
         private System.Windows.Forms.ToolStripComboBox cmbFontSize;
+        private MaterialSkin.Controls.MaterialButton btnSaveToFile;
+        private MaterialSkin.Controls.MaterialButton btnOpenFromFile;
     }
 }

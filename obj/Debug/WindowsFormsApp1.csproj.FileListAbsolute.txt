@@ -35,3 +35,22 @@ E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\
 E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.exe
 E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.pdb
 E:\ex_hard\foundtion\test\progectnotes\noteapp2\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.AboutForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\bin\Debug\WindowsFormsApp1.exe.config
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\bin\Debug\WindowsFormsApp1.exe
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\bin\Debug\WindowsFormsApp1.pdb
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\bin\Debug\MaterialSkin.dll
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.AboutForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.AddNoteForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.EditNoteForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.LoginForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.MainForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.RegisterForm.resources
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.exe
+E:\ex_hard\foundtion\test\progectnotes\noteapp2\New folder\Digital_Notes_Manager\obj\Debug\WindowsFormsApp1.pdb

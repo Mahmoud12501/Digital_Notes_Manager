@@ -43,6 +43,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cmbFonts = new System.Windows.Forms.ToolStripComboBox();
             this.cmbFontSize = new System.Windows.Forms.ToolStripComboBox();
+            this.btnOpenFromFile = new MaterialSkin.Controls.MaterialButton();
+            this.btnSaveToFile = new MaterialSkin.Controls.MaterialButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -197,7 +199,7 @@
             this.Bold.Image = global::WindowsFormsApp1.Properties.Resources.images;
             this.Bold.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Bold.Name = "Bold";
-            this.Bold.Size = new System.Drawing.Size(29, 25);
+            this.Bold.Size = new System.Drawing.Size(29, 28);
             this.Bold.Text = "toolStripButton1";
             this.Bold.Click += new System.EventHandler(this.Bold_Click);
             // 
@@ -207,7 +209,7 @@
             this.Italic.Image = global::WindowsFormsApp1.Properties.Resources.images__1_;
             this.Italic.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Italic.Name = "Italic";
-            this.Italic.Size = new System.Drawing.Size(29, 25);
+            this.Italic.Size = new System.Drawing.Size(29, 28);
             this.Italic.Text = "toolStripButton2";
             this.Italic.Click += new System.EventHandler(this.Italic_Click);
             // 
@@ -217,32 +219,74 @@
             this.Underline.Image = global::WindowsFormsApp1.Properties.Resources.Editing_Underline_icon;
             this.Underline.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Underline.Name = "Underline";
-            this.Underline.Size = new System.Drawing.Size(29, 25);
+            this.Underline.Size = new System.Drawing.Size(29, 28);
             this.Underline.Text = "toolStripButton3";
             this.Underline.Click += new System.EventHandler(this.Underline_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // cmbFonts
             // 
             this.cmbFonts.Name = "cmbFonts";
-            this.cmbFonts.Size = new System.Drawing.Size(121, 28);
+            this.cmbFonts.Size = new System.Drawing.Size(121, 31);
             this.cmbFonts.Click += new System.EventHandler(this.toolStripComboBox1_Click);
             // 
             // cmbFontSize
             // 
             this.cmbFontSize.Name = "cmbFontSize";
-            this.cmbFontSize.Size = new System.Drawing.Size(121, 28);
+            this.cmbFontSize.Size = new System.Drawing.Size(121, 31);
             this.cmbFontSize.Click += new System.EventHandler(this.cmbFontSize_Click);
+            // 
+            // btnOpenFromFile
+            // 
+            this.btnOpenFromFile.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnOpenFromFile.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnOpenFromFile.Depth = 0;
+            this.btnOpenFromFile.HighEmphasis = true;
+            this.btnOpenFromFile.Icon = null;
+            this.btnOpenFromFile.Location = new System.Drawing.Point(570, 442);
+            this.btnOpenFromFile.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnOpenFromFile.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnOpenFromFile.Name = "btnOpenFromFile";
+            this.btnOpenFromFile.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnOpenFromFile.Size = new System.Drawing.Size(92, 36);
+            this.btnOpenFromFile.TabIndex = 11;
+            this.btnOpenFromFile.Text = "Open File";
+            this.btnOpenFromFile.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnOpenFromFile.UseAccentColor = false;
+            this.btnOpenFromFile.UseVisualStyleBackColor = true;
+            this.btnOpenFromFile.Click += new System.EventHandler(this.btnOpenFromFile_Click);
+            // 
+            // btnSaveToFile
+            // 
+            this.btnSaveToFile.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnSaveToFile.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnSaveToFile.Depth = 0;
+            this.btnSaveToFile.HighEmphasis = true;
+            this.btnSaveToFile.Icon = null;
+            this.btnSaveToFile.Location = new System.Drawing.Point(401, 442);
+            this.btnSaveToFile.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSaveToFile.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnSaveToFile.Name = "btnSaveToFile";
+            this.btnSaveToFile.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnSaveToFile.Size = new System.Drawing.Size(90, 36);
+            this.btnSaveToFile.TabIndex = 12;
+            this.btnSaveToFile.Text = "Save File";
+            this.btnSaveToFile.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnSaveToFile.UseAccentColor = false;
+            this.btnSaveToFile.UseVisualStyleBackColor = true;
+            this.btnSaveToFile.Click += new System.EventHandler(this.btnSaveToFile_Click);
             // 
             // AddNoteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1113, 496);
+            this.Controls.Add(this.btnSaveToFile);
+            this.Controls.Add(this.btnOpenFromFile);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.richTextContent);
             this.Controls.Add(this.btnSave);
@@ -279,5 +323,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripComboBox cmbFonts;
         private System.Windows.Forms.ToolStripComboBox cmbFontSize;
+        private MaterialSkin.Controls.MaterialButton btnOpenFromFile;
+        private MaterialSkin.Controls.MaterialButton btnSaveToFile;
     }
 }

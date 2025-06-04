@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
@@ -27,7 +22,7 @@ namespace WindowsFormsApp1
             userId = loggedInUserId;
 
             var skinManager = MaterialSkinManager.Instance;
-            //skinManager.AddFormToManage(this);
+         
             skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             skinManager.ColorScheme = new ColorScheme(
                 Primary.Blue600, Primary.Blue700,
@@ -120,8 +115,7 @@ namespace WindowsFormsApp1
             cmbFonts.SelectedIndex = 0;
             ////
             cmbFontSize.Items.AddRange(new object[] { "8", "10", "12", "14", "16", "18", "20", "24", "28", "32", "36" });
-            cmbFontSize.SelectedItem = "12"; // تحديد حجم افتراضي
-
+            cmbFontSize.SelectedItem = "12"; 
             foreach (FontFamily font in FontFamily.Families)
             {
                 cmbFonts.Items.Add(font.Name);
@@ -129,6 +123,28 @@ namespace WindowsFormsApp1
             cmbFonts.SelectedItem = "Arial";
         }
 
-     
+        private void btnOpenFromFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text Files (*.txt)|*.txt";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string content = File.ReadAllText(openFileDialog.FileName);
+                richTextContent.Text = content;
+            }
+        }
+
+        private void btnSaveToFile_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text Files (*.txt)|*.txt";
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                File.WriteAllText(saveFileDialog.FileName, richTextContent.Text);
+                MessageBox.Show("Note saved successfully to file!");
+            }
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -120,7 +121,29 @@ namespace WindowsFormsApp1
             string fontName = richTextContent.SelectionFont?.FontFamily.Name ?? "Arial";
             richTextContent.SelectionFont = new Font(fontName, size);
         }
-     
 
+        private void btnSaveToFile_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text Files (*.txt)|*.txt";
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                File.WriteAllText(saveFileDialog.FileName, richTextContent.Text);
+                MessageBox.Show("Note saved successfully to file!");
+            }
+        }
+
+        private void btnOpenFromFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text Files (*.txt)|*.txt";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string content = File.ReadAllText(openFileDialog.FileName);
+                richTextContent.Text = content;
+            }
+        }
     }
 }
